@@ -1,4 +1,7 @@
 # React + Koa + Polaris
+Simple starter: multiple koa routing for api and Polaris based interface
+
+
 
 ## Getting started
 - Clone the repo
@@ -11,3 +14,4 @@ git clone git@github.com:alexgenovese/react-koa-routing-api-polaris.git
 cd react-koa-routing-api-polaris
 npm install
 cd client && npm install
+```
