@@ -1,5 +1,5 @@
 {
-  "name": "react-express-routing-api",
+  "name": "react-koa-routing-api-polaris",
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",
