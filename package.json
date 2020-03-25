@@ -1,0 +1,28 @@
+{
+  "name": "react-express-routing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Alex Genovese",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "@shopify/polaris": "^4.16.1",
+    "@shopify/polaris-icons": "^3.10.0",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^8.0.8",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
